@@ -48,7 +48,7 @@ Prerequisite:
    
 In order to run a local instance enter these commands in the root directory:
 ```
-npm install -force
+npm install -legacy-peer-deps
 npm start
 ```
 After that a QR code will appear in your console, scan the code with your phone and an instance of the mobile application should load.
