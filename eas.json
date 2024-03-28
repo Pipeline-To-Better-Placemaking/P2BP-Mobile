@@ -16,6 +16,9 @@
       "distribution": "internal",
       "ios": {
         "resourceClass": "m1-medium"
+      },
+      "env": {
+		"HEROKU_SERVER": "https://better-placemaking.web.app/api"
       }
     },
     "production": {
