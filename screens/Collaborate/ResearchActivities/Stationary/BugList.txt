@@ -1,0 +1,7 @@
+Clock issue
+
+Can't edit project names
+
+Delete project deletes area
+
+Can't accsess things without a time slot

@@ -91,13 +91,6 @@ export const SignUpScreen = ( props ) => {
                 // Request permission to use location
                 let { status } = await Location.requestForegroundPermissionsAsync();
 
-                if (status === 'granted') {
-                    defaultLocation = await Location.getCurrentPositionAsync({});
-                    defaultLocation = defaultLocation.coords
-                } else {
-                    console.log('Permission to access location was denied');
-                }
-
                 await props.setLocation(defaultLocation);
                 await props.setSignedIn(true);
                 await setLoading(false);

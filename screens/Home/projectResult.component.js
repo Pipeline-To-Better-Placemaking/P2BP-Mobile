@@ -221,16 +221,6 @@ export function ProjectResultPage(props) {
             <View style={styles.teamtextTitle}>
                 <Text style={styles.teamText}>Research Results</Text>
             </View>
-            <Button
-              size={'small'}
-              style={styles.emailButton}
-              status={'info'}
-              appearance={'outline'}
-              accessoryRight={MailIcon}
-              onPress={emailResults}
-            >
-              Email Me Results
-            </Button>
         </View>
         <Divider style={styles.dividerMargin} />
         

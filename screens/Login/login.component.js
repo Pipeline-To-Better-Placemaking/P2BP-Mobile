@@ -43,7 +43,6 @@ export const LoginScreen = ( props ) => {
     let success = false;
     let res = null;
 
-    console.log(HEROKU_SERVER + "Hi mom");
 
     try {
 
@@ -85,7 +84,7 @@ export const LoginScreen = ( props ) => {
     await AsyncStorage.setItem("@invites", JSON.stringify(res.user.invites))
     await AsyncStorage.setItem("@mapConfig", "satellite")
     console.log("before status");
-    // let { status } = await Location.requestForegroundPermissionsAsync();
+    let { status } = await Location.requestForegroundPermissionsAsync();
     console.log("after awaits");
 
     /*if (status === 'granted') {

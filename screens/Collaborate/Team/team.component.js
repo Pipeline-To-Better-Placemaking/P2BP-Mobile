@@ -78,7 +78,7 @@ export function TeamPage(props) {
       // console.log("Selected Project: ", projectDetails);
 
       // open project page
-      props.navigation.navigate('ProjectPage');
+        props.navigation.navigate('ProjectPage');
       
     }
     
