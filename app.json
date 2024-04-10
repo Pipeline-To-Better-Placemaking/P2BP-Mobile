@@ -21,6 +21,9 @@
       "**/*"
     ],
     "ios": {
+      "config": {
+        "googleMapsApiKey": ""
+      },
       "supportsTablet": true,
       "infoPlist": {
         "NSAllowsArbitraryLoads": {

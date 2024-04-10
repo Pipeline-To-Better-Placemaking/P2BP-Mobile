@@ -1,7 +1,6 @@
 module.exports = ({ config }) => {
-  // console.log(config.android.config.googleMaps);
   config.android.config.googleMaps.apiKey = process.env.GOOGLE_MAPS_KEY;
-  // console.log(config.android.config.googleMaps);
+  config.ios.config.googleMapsApiKey = process.env.GOOGLE_MAPS_KEY;
   return {
     ...config,
   };
